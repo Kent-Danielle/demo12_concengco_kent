@@ -1,10 +1,42 @@
+:root {
+  --primary: #B4EDD2;
+  --secondary: #A0CFD3;
+  --neutral: #8d94ba;
+}
 
-/*-------------------------------------
- * customize material design icon sizes 
- *-------------------------------------
- */
+.bg-info {
+  background-color: var(--secondary) !important;
+}
 
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
+.navbar-light .navbar-brand {
+  color: black;
+}
+
+.btn-primary {
+  color: white;
+  background-color: var(--neutral);
+  border-color: var(--neutral);
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #25283D;
+  border-color: var(--neutral);
+}
+
+.btn-outline-success {
+  border-color: black  !important;
+  color: black !important;
+}
+
+body {
+  background-color: var(--primary);
+}
+
+.border-top {
+  border-color: var(--secondary) !important;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+}
